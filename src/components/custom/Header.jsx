@@ -3,7 +3,7 @@ import { Button } from '../ui/button'
 
 function Header() {
   return (
-    <div className='p-2 shadow-lg flex justify-between items-center px-2'>
+    <div className='flex items-center justify-between w-full px-5 2xl:px-20 p-4 shadow-lg'>
       <img src="/logo.svg" alt="logo" />
       <div className="">
         <Button>Sign In</Button>

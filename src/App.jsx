@@ -3,14 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './components/custom/Hero'
+import { MaxWrapper } from './components/custom/MaxWidthWrapper'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-        <Hero/>
-    </>
+    <MaxWrapper>
+      <Hero />
+    </MaxWrapper>
+
   )
 }
 
